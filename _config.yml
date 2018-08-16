@@ -78,4 +78,9 @@ theme: hueman
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/WYANG008/wyang008.github.io
+  branch: master
+  message: run deploy
+
+
